@@ -1,0 +1,64 @@
+body {
+  background-color: white;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 20px;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+section {
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* :root {
+  --red: #c43030;
+}*/
+
+.red{
+  color:rgb(184, 46, 46);
+}
+
+.btn-primary {
+  border: 0px;
+  color: white;
+  background-color: rgb(184, 46, 46);
+}
+
+.btn:hover{
+  background-color: rgb(189, 91, 91)
+}
+
+.card {
+  margin-bottom: 25px;
+  box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
+}
+
+
+#third {
+  background-image: url(/img/banner.jpg);
+  height: 700px;
+  padding-top: 300px;
+}
+
+#fourth{
+  background-color: rgb(236, 236, 236); 
+  padding-top:10%; 
+  padding-bottom: 10%;
+}
+
+#fourth .container p:nth-last-of-type(1) {
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+.typewrite{
+  font-size: 30pt;
+  font-weight: bold;
+}
