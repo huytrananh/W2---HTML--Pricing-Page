@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Checkout Page Coderschool</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+  rel="stylesheet"
+  crossorigin="anonymous"
+  href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+  integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+/>
+  <link rel="stylesheet" href="checkoutpage-style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/logo.jpeg" alt="CoderSchool logo" width="200"/>
+            <h1 class="text-center">Checkout form</h1>
+            <p class="text-center">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+        </header>
+        <section>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-8" style="background-color: rgb(156, 138, 138);">
+                    <form>
+                        <div class="row">
+                          <div class="col">
+                            <label for="">First name</label>
+                            <input type="text" class="form-control">
+                          </div>
+                          <div class="col">
+                            <label for="">Last name</label>
+                            <input type="text" class="form-control">
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="">User name</label>
+                                <div class="input-group flex-nowrap">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text" id="addon-wrapping">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="">Email address</label>
+                                <input type="email" class="form-control" placeholder="you@example.com" aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="">Address</label>
+                                <input type="text" class="form-control" placeholder="1234 Main St">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="">Address 2 (Optional)</label>
+                                <input type="text" class="form-control" placeholder="Apartment or Suit">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="">Country</label>
+                                <div class="input-group mb-3">
+                                    <select class="custom-select" id="">
+                                      <option selected>Choose...</option>
+                                      <option value="1">Vietnam</option>
+                                      <option value="2">Korea</option>
+                                      <option value="3">United State</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <label for="">State</label>
+                                <div class="input-group mb-3">
+                                    <select class="custom-select" id="">
+                                      <option selected>Choose...</option>
+                                      <option value="1">HCM city</option>
+                                      <option value="2">Ha Noi city</option>
+                                      <option value="3">Hoi An city</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <label for="">Zip</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Shipping address is the same as my billing address
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Save this information for next time
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>Payment</h3>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="" id="" value="option1" checked>
+                                    <label class="form-check-label" for="">
+                                      Credit Card
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="" id="" value="option2" checked>
+                                    <label class="form-check-label" for="">
+                                      Debit Card
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="" id="" value="option3" checked>
+                                    <label class="form-check-label" for="">
+                                      Paypal
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="">Name on card</label>
+                                <input type="text" class="form-control">
+                                <small id="" class="form-text text-muted">
+                                    Full name as displayed on card                                  </small>
+                              </div>
+                              <div class="col">
+                                <label for="">Credit card number</label>
+                                <input type="text" class="form-control">
+                              </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="">Expiration</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col">
+                                        <label for="">Expiration</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-primary btn-lg btn-block">Continue to Checkout</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>© 2017-2018 Company Name</p>
+                                <ul style="list-style-type: none">
+                                    <li>Privacy</li>
+                                    <li>Terms</li>
+                                    <li>Support</li>
+                                </ul>
+                            </div>
+                        </div>
+                      </form>
+                  </div>
+                  <div class="col-sm-4" style="background-color: red;">
+                    One of 2 columns
+                  </div>
+                </div>
+              </div>
+        </section>
+     </div>
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

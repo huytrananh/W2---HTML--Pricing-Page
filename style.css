@@ -17,10 +17,6 @@ section {
   flex-direction: column;
 }
 
-/* :root {
-  --red: #c43030;
-}*/
-
 .red{
   color:rgb(184, 46, 46);
 }
@@ -38,6 +34,7 @@ section {
 .card {
   margin-bottom: 25px;
   box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
+  min-height: 550px;
 }
 
 
